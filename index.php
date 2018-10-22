@@ -4,6 +4,8 @@ $title = "Puslapis";
 $body = "Tekstas";
 
 require('template_1.php'); -->
+
+
 <?php
 include('functions.php');
 
@@ -22,7 +24,7 @@ include('functions.php');
 		echo "Šiandien lauke yra " . getFeel(15) . "<br />";
 		// echo sprintf($template_1, getFeel(10));
 	?> -->
-	<table class="table">
+	<table class="table table-sm">
 	<tr><th>Temperatūra</th><th>Pojūtis</th></tr>
 	<?php
 	for ($i=0; $i <= 35; $i++) { 
